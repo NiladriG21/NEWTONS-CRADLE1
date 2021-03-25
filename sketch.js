@@ -16,7 +16,7 @@ function preload()
 function setup() {
 	engine = Engine.create();
 	world = engine.world;
-	createCanvas(1300, 700);
+	createCanvas(1360, 650);
 
 bobObject1=new Bob(500,350,50);
 bobObject2=new Bob(550,350,50);
